@@ -1,0 +1,11 @@
+name = Humanitarianresponse Private
+description = Allows managers and editors to mark content private
+core = 7.x
+package = Humanitarianresponse
+dependencies[] = features
+dependencies[] = humanitarianresponse_users
+dependencies[] = private
+features[features_api][] = api:1
+features[user_permission][] = access private content
+features[user_permission][] = edit private content
+features[user_permission][] = mark content as private
