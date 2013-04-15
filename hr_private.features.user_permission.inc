@@ -14,9 +14,9 @@ function hr_private_user_default_permissions() {
   $permissions['access private content'] = array(
     'name' => 'access private content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
       3 => 'trusted',
     ),
     'module' => 'private',
@@ -26,9 +26,9 @@ function hr_private_user_default_permissions() {
   $permissions['edit private content'] = array(
     'name' => 'edit private content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'private',
   );
@@ -37,9 +37,9 @@ function hr_private_user_default_permissions() {
   $permissions['mark content as private'] = array(
     'name' => 'mark content as private',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'private',
   );
