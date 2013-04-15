@@ -17,7 +17,7 @@ function hr_private_user_default_permissions() {
       'administrator' => 'administrator',
       'editor' => 'editor',
       'manager' => 'manager',
-      3 => 'trusted',
+      'trusted' => 'trusted',
     ),
     'module' => 'private',
   );
