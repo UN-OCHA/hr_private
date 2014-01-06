@@ -16,6 +16,8 @@ function hr_private_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'editor' => 'editor',
+      'manager' => 'manager',
+      'trusted' => 'trusted',
     ),
     'module' => 'private',
   );
@@ -26,6 +28,8 @@ function hr_private_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'editor' => 'editor',
+      'manager' => 'manager',
+      'trusted' => 'trusted',
     ),
     'module' => 'private',
   );
@@ -36,6 +40,8 @@ function hr_private_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'editor' => 'editor',
+      'manager' => 'manager',
+      'trusted' => 'trusted',
     ),
     'module' => 'private',
   );
